@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lexand Deca Light';
+}
+
+html {
+  font-size: 63%;
+  overflow-x: hidden;
+}
+p,
+a,
+li {
+  font-size: 1.7rem;
+  color: #20262e;
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+}
+.fa-bars-staggered {
+  font-size: 3.2rem;
+  cursor: pointer;
+}
+header {
+  height: 10rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar {
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translateX(100%);
+  transition: all 1s linear;
+}
+.nav-first {
+  width: 50%;
+  max-width: 52rem;
+  min-width: 32rem;
+  background-color: #655dbb;
+}
+.nav-second {
+  background: #3e54ac;
+  width: 95%;
+}
+.navbar-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+  background: #ecf2ff;
+}
+
+.navbar-list ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2.2rem;
+  list-style: none;
+}
+.navbar-list a {
+  font-size: 2.4rem;
+  text-transform: uppercase;
+}
+.navbar-list a:hover {
+  text-decoration: underline;
+  color: #3e54ac;
+}
+.fa-xmark {
+  position: absolute;
+  top: 5%;
+  right: 15%;
+  font-size: 3.2rem;
+  cursor: pointer;
+}
+
+.active {
+  transform: translateX(0);
+}
