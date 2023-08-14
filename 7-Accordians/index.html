@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accordian</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+
+  <body class="flex flex-col justify-between items-center bg-body">
+    <h2 class="text-gold font-cursive text-5xl pb-20 pt-6">
+      General Questions
+    </h2>
+    <section class="w-[600px]">
+      <!-- 1st accordian -->
+      <div
+        class="accordian bg-accCol mb-8 p-5 cursor-pointer rounded-md shadow-md"
+      >
+        <div class="question flex justify-between items-start">
+          <h4 class="font-sans tracking-questionSpace pb-5">
+            Do You Accept All Major Credit Cards?
+          </h4>
+          <i class="icon fa-solid fa-caret-down text-gold"></i>
+        </div>
+        <div class="answer">
+          <p class="text-para">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+            modi incidunt doloremque eius recusandae quibusdam nihil beatae
+            laudantium nesciunt praesentium?
+          </p>
+        </div>
+      </div>
+      <!-- 2nd accordian -->
+      <div
+        class="accordian bg-accCol mb-8 p-5 cursor-pointer rounded-md shadow-md"
+      >
+        <div class="question flex justify-between">
+          <h4 class="font-sans tracking-questionSpace pb-5">
+            Do You Suppport Local Farmers?
+          </h4>
+          <i class="icon fa-solid fa-caret-down text-gold"></i>
+        </div>
+        <div class="answer">
+          <p class="text-para">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+            modi incidunt doloremque eius recusandae quibusdam nihil beatae
+            laudantium nesciunt praesentium?
+          </p>
+        </div>
+      </div>
+      <!-- 3rd accordian -->
+      <div class="accordian bg-accCol p-5 cursor-pointer rounded-md shadow-md">
+        <div class="question flex justify-between">
+          <h4 class="font-sans tracking-questionSpace pb-5">
+            Do You Use Organic Ingredients?
+          </h4>
+          <i class="icon fa-solid fa-caret-down text-gold"></i>
+        </div>
+        <div class="answer">
+          <p class="text-para">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+            modi incidunt doloremque eius recusandae quibusdam nihil beatae
+            laudantium nesciunt praesentium?
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
