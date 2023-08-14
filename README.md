@@ -9,7 +9,7 @@
 4.Navbar
 5.Sidebar
 6.Modal
-7.Questions
+7.Accordians
 8.Menu
 9.Video
 10.Scroll
